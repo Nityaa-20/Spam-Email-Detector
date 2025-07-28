@@ -1,1 +1,20 @@
-# Spam-Email-Detector
+# Spam-Email-Detector-using-Kaggle-Datasets
+A machine learning-based spam email classifier that detects whether an email is spam or ham (not spam) using Natural Language Processing (NLP) techniques.
+Features
+✅ Load and preprocess the spam dataset (Kaggle)
+✅ Clean and tokenize email text data
+✅ Convert text into numerical features using TF-IDF
+✅ Train a Multinomial Naïve Bayes model
+✅ Evaluate accuracy, precision, and recall
+✅ Predict if new emails are spam or not
+
+📂 Dataset
+
+The dataset is sourced from Kaggle’s spam email dataset, containing labeled spam and ham emails.
+
+🛠 Tech Stack
+
+🔹 Python (Pandas, NumPy)
+🔹 Scikit-learn (Naïve Bayes, TF-IDF)
+🔹 NLTK for text preprocessing
+🔹 Jupyter Notebook/Google Colab
